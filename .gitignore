@@ -35,3 +35,17 @@ project.properties
 lint.xml
 .DS_STORE
 .factorypath
+
+# Gradle Specific Files to be ignored
+
+target/
+*.iml
+*.ipr
+*.iws
+*.log
+*.class
+.idea/
+.gradle
+build/
+*.orig
+local.properties
