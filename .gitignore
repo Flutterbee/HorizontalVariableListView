@@ -16,8 +16,6 @@ gen/
 # Local configuration file (sdk path, etc)
 local.properties
 
-build/
-.gradle
 .idea
 sample/build
 horizontallistview/build
@@ -36,6 +34,9 @@ lint.xml
 .DS_STORE
 .factorypath
 
+# JDT-specific (Eclipse Java Development Tools)
+.classpath
+
 # Gradle Specific Files to be ignored
 
 target/
@@ -48,4 +49,5 @@ target/
 .gradle
 build/
 *.orig
+
 local.properties
